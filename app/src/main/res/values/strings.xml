@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fourth FnB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_Title">Login</string>
+    <string name="loginusername_textbox">Username</string>
+    <string name="loginpassword_textbox">Password</string>
+    <string name="stockcountbarcode_activity_home">Stock Count with Barcode</string>
+    <string name="title_activity_organisation">Organisation</string>
+    <string name="title_activity_stock_count">Stock Count</string>
+    <string name="productname_activity_stock_count">Product Name : </string>
+    <string name="category_hierarchy_stock_count">Category : </string>
+    <string name="uom_activity_stock_count">Unit Of Measure : </string>
+    <string name="costprice_activity_stock_count">Cost Price : </string>
+    <string name="quantity_activity_stock_count">Quantity : </string>
+    <string name="totalvalue_activity_stock_count">Total Value : </string>
+    <string name="submit_activity_stock_count">Submit</string>
+    <string name="title_activity_home">FnB Home</string>
+    <string name="nextButton_activity_organisation">Next</string>
+    <string name="viewAllStockCountButton_activity_home">View All Stock Count</string>
+    <string name="title_activity_view_all_stock_count">Stock Count Detail</string>
+    <string name="ItemNameHeader_activity_view_all_stock_count">Item Name</string>
+    <string name="CurrentCountHeader_activity_view_all_stock_count">Current Count</string>
+    <string name="PreviousCountHeader_activity_view_all_stock_count">Previous Count</string>
+    <string name="app_label">fourth</string>
+    <string name="search_hint">search by stock item name</string>
+    <string name="stockcountname_activity_home">Stock Count By Name</string>
+    <string name="back_button">Back</string>
+    <string name="organisationTxt_organisation_activity">Organisation :</string>
+    <string name="profileTxt_organisation_activity">Profile :</string>
+    <string name="selectOrgProfileTxt_organisation_activity">Select organisation and user profile</string>
+    <string name="search_setting_description">Stock Item Name</string>
+    <string name="stockperiodTxt_home_activity" formatted="false">Stock Period:\nFrom %s To %s</string>
+    <string name="stockperiodStatusTxt_home_activity" formatted="false">Status : %s</string>
+    <string name="downloadStockCountItemButton_activity_home">Download Count Item</string>
+    <string name="uploadStockCountButton_activity_home">Upload Stock Count</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_stock_count_swipe">Stock Count</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_save">Save</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_help">Help</string>
+    <string name="stock_count">Stock Count</string>
+    <string name="totalCount_view_all_stock_count_activity">Total Stock Count Item :</string>
+    <string name="open_drawer_message">Open course categories</string>
+    <string name="close_drawer_message">Close course categories</string>
+    <string name="searchByVoiceBtn">Search Stock Count By Voice</string>
+    <string name="printBtn">Print Stock Sheet</string>
+    <string name="title_activity_print_dialog">PrintDialogActivity</string>
+
+</resources>

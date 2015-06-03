@@ -1,0 +1,97 @@
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".StockCountSwipeActivity$DummySectionFragment">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/productname_activity_stock_count"
+            android:id="@+id/productName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginTop="72dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/category_hierarchy_stock_count"
+            android:id="@+id/categoryHierarchy"
+            android:layout_below="@+id/productName"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/uom_activity_stock_count"
+            android:id="@+id/uom"
+            android:layout_below="@+id/categoryHierarchy"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uomSpinner"
+            android:layout_toRightOf="@+id/uom"
+            android:layout_toEndOf="@+id/uomSpinner"
+            android:layout_alignBaseline="@+id/uom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/costprice_activity_stock_count"
+            android:id="@+id/costprice"
+            android:layout_below="@+id/uom"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/quantity_activity_stock_count"
+            android:id="@+id/quantity"
+            android:layout_below="@+id/costprice"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/quantityText"
+            android:layout_below="@+id/costprice"
+            android:layout_toRightOf="@+id/quantity"
+            android:layout_toEndOf="@+id/quantity" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/totalvalue_activity_stock_count"
+            android:id="@+id/totalvalue"
+            android:layout_below="@+id/quantityText"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
+            android:layout_alignParentStart="true" />
+
+        </RelativeLayout>

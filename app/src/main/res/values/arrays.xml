@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_drawer_options">
+        <item>@string/downloadStockCountItemButton_activity_home</item>
+        <item>@string/uploadStockCountButton_activity_home</item>
+    </string-array>
+</resources>

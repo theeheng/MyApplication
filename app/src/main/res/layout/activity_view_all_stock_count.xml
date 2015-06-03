@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.htan.myapplication.ViewAllStockCountActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/totalCount_view_all_stock_count_activity"
+        android:id="@+id/totalCount"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ItemNameHeader_activity_view_all_stock_count"
+        android:id="@+id/itemNameHeader"
+        android:layout_below="@+id/totalCount"
+        android:paddingTop="@dimen/activity_vertical_margin"
+ />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CurrentCountHeader_activity_view_all_stock_count"
+        android:id="@+id/curentCountHeader"
+        android:paddingLeft="10sp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/totalCount"
+        android:layout_toRightOf="@+id/itemNameHeader"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PreviousCountHeader_activity_view_all_stock_count"
+        android:id="@+id/PreviousCountHeader"
+        android:paddingLeft="10sp"
+        android:layout_below="@+id/totalCount"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_toRightOf="@+id/curentCountHeader"
+        android:layout_toEndOf="@+id/curentCountHeader" />
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:stretchMode="columnWidth"
+        android:cacheColorHint="#00000000"
+        android:layout_below="@+id/itemNameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="1"
+        android:clipChildren="true"
+        android:horizontalSpacing="5dip"
+        android:verticalSpacing="5dip"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
